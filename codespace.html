@@ -1,9 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 <head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dawei Wang</title>
+    <style>
+        :root {
+            --bg: #FAF9F5;
+            --ink: #1C2023;
+            --slate: #5B6770;
+            --accent: #2C6E6B;
+            --hairline: #DAD5C8;
+            --surface: #FFFFFF;
+           }
+        
+        * { box-sizing: border-box; }
+
+        body {
+          margin: 0;
+          background: var(--bg);
+          color: var(--ink);
+          font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif;
+          line-height: 1.65;
+          -webkit-font-smoothing: antialiased;
+    }
+ 
+        .wrap {
+          max-width: 680px;
+          margin: 0 auto;
+          padding: 0 24px;
+    }
+ 
+        /* Site header */
+        .site-header {
+          padding: 72px 0 40px;
+          border-bottom: 1px solid var(--hairline);
+    }
+ 
+        .site-header .eyebrow {
+          font-family: 'Courier New', ui-monospace, monospace;
+          font-size: 0.75rem;
+          letter-spacing: 0.12em;
+          text-transform: uppercase;
+          color: var(--accent);
+          margin: 0 0 10px;
+    }
+ 
+        .site-header h1 {
+          font-size: 2.1rem;
+          margin: 0 0 8px;
+          font-weight: 600;
+          letter-spacing: -0.01em;
+    }
+ 
+        .site-header p {
+          margin: 0;
+          color: var(--slate);
+          font-size: 1.02rem;
+    }
+ 
+        /* Connectivity divider — signature motif referencing functional
+           connectivity between brain regions (nodes + connecting lines) */
+        .connectivity-divider {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 6px;
+          padding: 28px 0;
+    }
+ 
+        .connectivity-divider .node {
+          width: 5px;
+          height: 5px;
+          border-radius: 50%;
+          background: var(--accent);
+          opacity: 0.55;
+    }
+ 
+        .connectivity-divider .line {
+          width: 40px;
+          height: 1px;
+          background: var(--hairline);
+    }
+        
+        /* Sections */
+        section {
+          padding: 8px 0 44px;
+    }
+ 
+        section h2 {
+          font-family: 'Courier New', ui-monospace, monospace;
+          font-size: 0.78rem;
+          letter-spacing: 0.14em;
+          text-transform: uppercase;
+          color: var(--accent);
+          margin: 0 0 18px;
+          font-weight: 600;
+    }
+ 
+        section p {
+          margin: 0 0 14px;
+          color: var(--ink);
+          font-size: 1.02rem;
+    }
+ 
+        section p:last-child { margin-bottom: 0; }
+ 
+        a {
+          color: var(--accent);
+          text-decoration: none;
+          border-bottom: 1px solid currentColor;
+          transition: opacity 0.15s ease;
+    }
+ 
+        a:hover { opacity: 0.7; }
+ 
+        a:focus-visible {
+          outline: 2px solid var(--accent);
+          outline-offset: 3px;
+    }
+ 
+        .contact-line {
+          font-family: 'Courier New', ui-monospace, monospace;
+          font-size: 0.95rem;
+          color: var(--slate);
+    }
+ 
+        .contact-line a { color: var(--ink); }
+ 
+        footer {
+          border-top: 1px solid var(--hairline);
+          padding: 24px 0 60px;
+          color: var(--slate);
+          font-size: 0.82rem;
+          font-family: 'Courier New', ui-monospace, monospace;
+    }
+ 
+        @media (max-width: 480px) {
+          .site-header { padding: 48px 0 32px; }
+          .site-header h1 { font-size: 1.7rem; }
+    }
+        
+    </style>
 </head>
+    
 <body>
+    
     <div class="wrap">
 
     <header class="site-header">
@@ -21,12 +164,19 @@
     </section>
     
     <section id="about">
-        <h2>CV</h2>
+        <h2>Experience</h2>
         <p>
         <a href="#">Link to CV</a>
+            <!--# is a placeholder, replace later with CV PDF in repo-->
         </p>
     </section>
 
+    <div class="connectivity-divider" aria-hidden="true">
+      <span class="node"></span><span class="line"></span>
+      <span class="node"></span><span class="line"></span>
+      <span class="node"></span>
+    </div>
+        
     <section id="contact">
         <h2>Contact</h2>
         <p class="contact-line">
@@ -34,6 +184,12 @@
       </p>
     </section>
 
+    <div class="connectivity-divider" aria-hidden="true">
+      <span class="node"></span><span class="line"></span>
+      <span class="node"></span><span class="line"></span>
+      <span class="node"></span>
+    </div>
+        
     <footer>
       &copy; 2026 Dawei Wang
     </footer>
