@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects</title>
+
+  <style>
+    :root {
+      --bg: #FFFFFF;
+      --ink: #1C2023;
+      --slate: #1C2023;
+      --accent: #2C6E6B;
+      --hairline: #DAD5C8;
+      --link: #2C506E;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif;
+      line-height: 1.6;
+    }
+
+    .wrap {
+        width: min(900px);
+        margin: 0 0 0 clamp(24px, 6vw, 100px);
+        padding: 40px 40px;
+    }
+
+    .site-nav {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      padding: 8px 0;
+      border-bottom: 1px solid var(--hairline);
+    }
+
+    .site-nav a {
+      color: var(--slate);
+      text-decoration: none;
+      border-bottom: 2px solid transparent;
+      padding: 6px 0;
+      font-weight: 700;
+    }
+
+    .site-nav a:hover,
+    .site-nav a.active {
+      color: var(--accent);
+      border-bottom-color: var(--accent);
+    }
+
+    .page-header {
+      padding: 20px 0 20px;
+      border-bottom: 1px solid var(--hairline);
+    }
+
+    .page-header h1 {
+      margin: 0 0 5px;
+      font-size: clamp(2.2rem, 5vw, 3.25rem);
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+    }
+
+    main {
+      padding: 20px 0 10px;
+      color: var(--ink);
+      font-size: 1.05rem;
+    }
+
+    main h2 {
+      color: var(--accent);
+      font-size: 1.2rem;
+      letter-spacing: 0.12em;
+      line-height: 1.3;
+      text-transform: uppercase;
+      font-family: 'Courier New', ui-monospace, monospace;
+      margin: 0 0 10px;
+      font-weight: 700;
+    }
+
+    footer {
+      border-top: 1px solid var(--hairline);
+      padding: 20px 0 42px;
+      font-size: 0.82rem;
+    }
+
+    @media (max-width: 600px) {
+      .wrap {
+        width: 100%;
+        margin: 0;
+        padding: 20px;
+      }
+
+      .site-nav {
+        gap: 20px;
+        overflow-x: auto;
+        white-space: nowrap;
+      }
+
+      .site-nav a {
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="cv-dawei-wang.pdf" target="_blank">CV</a>
+      <a href="projects.html" class="active" aria-current="page">
+        Projects
+      </a>
+    </nav>
+
+    <header class="page-header">
+      <h1>Projects</h1>
+    </header>
+
+    <main>
+      <section>
+        <h2>Functional Network Disruption as Biomarkers for Adolescent Concussion</h2>
+        <p>
+          <a href="./poster.pdf" target="_blank" rel="noopener noreferrer"><img src="./poster-img.png" width="240" height="180"></a>
+        </p>
+        <p>Used graph theory-based modelling to observe functional connectivity in adolescent concussion, observed decreased efficiency, strength and increased clustering in individuals with concussion. 
+          Presented project at the Child and Youth Mental Health Research Day at the Hospital for Sick Children (SickKids), 
+          and the Tri-Campus Undergraduate Research Conference at the University of Toronto.</p>
+      </section>
+    </main>
+
+    <div class="connectivity-divider" aria-hidden="true">
+      <span class="node"></span>
+      <span class="line"></span>
+      <span class="node"></span>
+      <span class="line"></span>
+      <span class="node"></span>
+    </div>
+
+    <footer>
+      &copy; 2026 Dawei Wang
+    </footer>
+  </div>
+</body>
+</html>

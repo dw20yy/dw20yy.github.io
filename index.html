@@ -28,11 +28,34 @@
     }
  
         .wrap {
-          max-width: 900px;
-          margin: clamp(32px, 8vw, 128px);
-          padding: 40px;
+        width: min(900px);
+        margin: 0 0 0 clamp(24px, 6vw, 100px);
+        padding: 40px 40px;
     }
  
+        /* Navigation tabs */
+        .site-nav {
+          display: flex;
+          align-items: center;
+          gap: 32px;
+          padding: 8px 0;
+          border-bottom: 1px solid var(--hairline);
+        }
+
+        .site-nav a {
+          color: var(--slate);
+          border-bottom: 2px solid transparent;
+          padding: 6px 0;
+          font-size: 1rem;
+          font-weight: 700;
+        }
+
+        .site-nav a:hover,
+        .site-nav a.active {
+          color: var(--accent);
+          border-bottom-color: var(--accent);
+        }
+
         /* Site header */
         .site-header {
           padding: 52px 0 20px;
@@ -144,9 +167,9 @@
     /* Mobile Layout */
         @media (max-width: 600px) {
       .wrap {
-        width: auto;
+        width: 100%;
         margin: 0;
-        padding: 0 20px;
+        padding: 20px;
       }
 
       .site-header {
@@ -164,6 +187,16 @@
       .connectivity-divider {
         padding: 6px 0 14px;
       }
+      
+      .site-nav {
+        gap: 20px;
+        overflow-x: auto;
+        white-space: nowrap;
+      }
+
+      .site-nav a {
+        font-size: 0.9rem;
+      }
     }
         
     </style>
@@ -173,9 +206,15 @@
     
     <div class="wrap">
 
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="index.html" class="active" aria-current="page">Home</a>
+      <a href="cv-dawei-wang.pdf" target="_blank">CV</a>
+      <a href="projects.html">Projects</a>
+  </nav>
+      
     <header class="site-header">
         <h1>Dawei Wang</h1>
-        <img src="./picture.jpeg" class="profile-image" alt="Dawei Wang">
+        <img src="./picture.png" class="profile-image" alt="Dawei Wang">
         <p>Welcome to my website!</p>
     </header>
 
@@ -198,8 +237,11 @@
         
     <section id="about">
         <h2>Experience</h2>
-        <p>
-        <a href="cv-dawei-wang.pdf" target="_blank" rel="noopener noreferrer">My CV</a>
+        <p>During my undergraduate studies in life sciences at the University of Toronto, I have had the 
+          opportunity to work with neuroscience research, focusing on neurodegenerative and neurological disorders. 
+          This ultimately sparked an interest on better understanding these conditions 
+          using the computational and mathemetical side of neuroscience, which got me into my current work.
+          Please check out the CV or Projects tab to learn more about them! 
         </p>
     </section>
 
@@ -214,7 +256,7 @@
     <section id="contact">
         <h2>Contact</h2>
         <p class="contact-line">
-        Email: <a href="mailto:daweiw.wang@mail.utoronto.ca">daweiw.wang@mail.utoronto.ca</a>
+        Feel free to email me at <a href="mailto:daweiw.wang@mail.utoronto.ca">daweiw.wang@mail.utoronto.ca</a>
       </p>
     </section>
 
