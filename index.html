@@ -5,6 +5,7 @@
     <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dawei Wang</title>
+    <link rel="icon" type="image/png" href="favicon.svg">
     <style>
         :root {
             --bg: #FFFFFF;
@@ -13,7 +14,8 @@
             --accent: #2C6E6B;
             --hairline: #DAD5C8;
             --surface: #FFFFFF;
-            --link: #2C506E;
+            --link: #3e739e;
+            --visited: #551A8B;
            }
         
         * { box-sizing: border-box; }
@@ -149,12 +151,14 @@
     }
 
     /* Contact Info */
-        .contact-line {
+        .contact a:link {
           font-size: 0.95rem;
-          color: var(--slate);
-    }
- 
-        .contact-line a { color: var(--ink); }
+          color: var(--link);
+        }
+
+        .contact a:visited {
+          color: var(--visited);
+        }
  
         footer {
           border-top: 1px solid var(--hairline);
@@ -221,9 +225,9 @@
     <section id="about">
         <h2>About</h2>
         <p>
-        I am a student researcher interested in neuroimaging and computational neuroscience. 
-        I am currently looking at fMRI data in schizophrenia patients at the Centre for Addiction and Mental Health (CAMH), 
-        specifically looking at their functional connectivity and functional outcomes over a 5-year period.
+        I am a graduate student interested in neuroimaging and computational neuroscience. 
+        Currently, I am working under Dr. Nicholas Neufeld at the Centre for Addiction and Mental Health (CAMH), looking at functional connectivity, 
+        physical outcomes, and physical biomarkers in schizophrenia patients over a 5-year period.
         </p>
     </section>
 
@@ -255,8 +259,10 @@
         
     <section id="contact">
         <h2>Contact</h2>
-        <p class="contact-line">
-        Feel free to email me at <a href="mailto:daweiw.wang@mail.utoronto.ca">daweiw.wang@mail.utoronto.ca</a>
+        <p class="contact">
+        <a href="mailto:daweiw.wang@mail.utoronto.ca">Email</a>
+          <br>
+        <a href="https://www.linkedin.com/in/daweiwang365" target="_blank">LinkedIn</a>
       </p>
     </section>
 
