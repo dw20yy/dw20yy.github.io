@@ -1,0 +1,98 @@
+/* css styles */
+
+/* Adjust vertical padding or height of the overall footer */
+.nav-footer {
+  min-height: 0.5em; /* Default is around 3em for inner sections */
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+/* Adjust font size of specific footer regions */
+.nav-footer .nav-footer-left {
+  font-size: 0.85rem;
+}
+
+.nav-footer .nav-footer-center {
+  font-size: 0.05rem;
+}
+
+.nav-footer .nav-footer-right {
+  font-size: 0.05rem;
+}
+
+
+/* Index page layout */
+.home-layout {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 1rem;
+  max-width: 1000px;
+  margin: 2rem auto;
+}
+
+/* Left profile section */
+.profile-sidebar {
+  text-align: center;
+}
+
+
+/* Aligns Homepage text with photo */
+.quarto-about-trestles .about-contents .about-me-heading {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* Covers Quarto's section wrapper, if it is present */
+.quarto-about-trestles .about-contents > .level3:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+
+/* Remove padding on top of titles */
+.remove-upper-whitespace {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+
+/*Profile Photo*/
+.profile-photo {
+  width: 170px;
+  height: 225px;
+  object-fit: cover;
+  margin-bottom: 1px;
+}
+
+.profile-sidebar h3 {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+
+/* Right content */
+
+.home-content {
+  padding-top: 0.5rem;
+}
+
+.home-content h2 {
+  margin-top: 0;
+}
+
+
+/* Mobile */
+
+@media (max-width: 700px) {
+
+  .home-layout {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .profile-sidebar {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+}
