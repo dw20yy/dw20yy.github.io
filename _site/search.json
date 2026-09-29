@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Dawei Wang",
+    "section": "",
+    "text": "About Me\nI am a MSc candidate at the University of Toronto studying neuroimaging and computational neuroscience.\nI am interested in neuroscience, especially with neurological disorders and bridging the gap between clinical and computational sides of health research.\n\n\nEducation\n\nMSc, Institute of Medical Science | University of Toronto | 2026-2028\nHBSc, Human Biology, Immunology | University of Toronto | 2022-2026\n\n\n\nProjects\nI am currently working under Dr. Nicholas Neufeld at the Centre for Addiction and Mental Health (CAMH), observing functional trajectory, physical outcomes, and neuroimaging biomarkers in schizophrenia patients over a 5-year period.\nFor more information about past projects, please check out the Research or CV tab to learn more about them!"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Below are the research projects I am currently working on or have completed."
+  },
+  {
+    "objectID": "research.html#current-research",
+    "href": "research.html#current-research",
+    "title": "Research",
+    "section": "Current Research",
+    "text": "Current Research\n\nPrediction of Individual Functional Outcome Trajectories in Schizophrenia Spectrum Disorders\n\nPrincipal Investigators: Dr. Nicholas Neufeld, MD, MSc, FRCPC; Dr. Mahavir Agarwal, MBBS, MD\nLocation: Centre for Addiction and Mental Health (CAMH)\nDate of Project: 2026-2028\nThe PREDICTS study is the focus of Master’s thesis. investigates the longitudinal trajectories of functional outcomes in individuals with schizophrenia spectrum disorders. For my Master’s thesis, I will be working on PREDICTS and explore how clinical variables (e.g. functional connectivity, metabolic factors) relate to functional outcomes such as changes in cognition and behaviour, with the goal of identifying biological and clinical markers that may explain differences in recovery and long-term outcomes."
+  },
+  {
+    "objectID": "research.html#previous-research",
+    "href": "research.html#previous-research",
+    "title": "Research",
+    "section": "Previous Research",
+    "text": "Previous Research\n\nFunctional Connectivity Disruption as Biomarkers in Adolescent Concussion\n\nPrincipal Investigators: Dr. Benjamin Dunkley, PhD; Dr. Avyarthana Dey, PhD\nLocation: Hospital for Sick Children\nDate of Project: 2025-2026\nFor my undergraduate thesis, I used graph theory-based modelling in MATLAB to analyze MEG data from adolescents with concussion. Functional connectivity networks were analyzed, and it was shown in individuals with concussion had lower connectivity measures such as efficiency and strength, and increased clustering, were observed. This showed disrupted functional connectivity in individuals with concussion, which could be helpful in providing more accurate and rapid concussion diagnosis."
+  }
+]

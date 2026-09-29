@@ -1,0 +1,31 @@
+---
+title: "Research"
+aliases:
+    - projects.html
+toc: true
+toc-title: "Research"
+toc-depth: 3
+format:
+  html:
+    toc-location: left
+---
+
+Below are the research projects I am currently working on or have completed. 
+
+## Current Research
+### Prediction of Individual Functional Outcome Trajectories in Schizophrenia Spectrum Disorders
+<!-- insert image or smt -->
+Principal Investigators: Dr. Nicholas Neufeld, MD, MSc, FRCPC; Dr. Mahavir Agarwal, MBBS, MD\
+Location: Centre for Addiction and Mental Health (CAMH)\
+Date of Project: 2026-2028
+
+The [PREDICTS study](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0288354){target="_blank"} is the focus of Master's thesis. investigates the longitudinal trajectories of functional outcomes in individuals with schizophrenia spectrum disorders. For my Master's thesis, I will be working on PREDICTS and explore how clinical variables (e.g. functional connectivity, metabolic factors) relate to functional outcomes such as changes in cognition and behaviour, with the goal of identifying biological and clinical markers that may explain differences in recovery and long-term outcomes.
+
+## Previous Research
+### Functional Connectivity Disruption as Biomarkers in Adolescent Concussion 
+[![Poster](poster-dunkley.jpg)](poster-dunkley.pdf){target="_blank"}\
+Principal Investigators: Dr. Benjamin Dunkley, PhD; Dr. Avyarthana Dey, PhD\
+Location: Hospital for Sick Children\
+Date of Project: 2025-2026
+
+For my undergraduate thesis, I used graph theory-based modelling in MATLAB to analyze MEG data from adolescents with concussion.  Functional connectivity networks were analyzed, and it was shown in individuals with concussion had lower connectivity measures such as efficiency and strength, and increased clustering, were observed. This showed disrupted functional connectivity in individuals with concussion, which could be helpful in providing more accurate and rapid concussion diagnosis.  

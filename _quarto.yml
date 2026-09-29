@@ -1,0 +1,31 @@
+project:
+  type: website
+
+website:
+  title: "Dawei Wang"
+  navbar:
+    background: "#135A7D"
+    left:
+      - href: index.qmd
+        text: Home
+      - research.qmd
+      #- contact.qmd
+    tools: 
+      - icon: linkedin
+        href: https://www.linkedin.com/in/daweiwang365/
+      - icon: github
+        href: https://github.com/dw20yy
+  page-footer: 
+    left: 
+      "© 2026, Dawei Wang"
+    border: false
+    background: light
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+

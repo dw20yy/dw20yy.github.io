@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../dw20yy.github.io"
+		},
+		{
+			"path": "../MSC1090"
+		},
+		{
+			"path": "../academicpages"
+		},
+		{
+			"path": "../../../Applications/quarto"
+		},
+		{
+			"path": "../qmd"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "dw20yy.github.io"
+	}
+}
