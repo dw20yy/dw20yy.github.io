@@ -3,4 +3,4 @@ title: "My CV"
 toc: false
 ---
 
-<iframe src="cv-dawei.pdf#view=FitH" style="width:100%; height:600px; border:1px solid #ddd; margin-top: 1em;"></iframe>
+<iframe src="cv-dawei.pdf" style="width:100%; height:600px; border:1px solid #ddd; margin-top: 1em;"></iframe>
