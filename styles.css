@@ -96,3 +96,38 @@
   }
 
 }
+
+
+
+/* CV Mobile View */
+
+.cv-pdf {
+  width: 100%;
+  height: 600px;
+  border: 1px solid #ddd;
+  margin-top: 1em;
+  display: block;
+}
+
+.cv-mobile-link {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .cv-pdf {
+    display: none;
+  }
+
+  .cv-mobile-link {
+    display: block;
+    margin-top: 1em;
+  }
+
+  .cv-mobile-link a {
+    display: inline-block;
+    padding: 0.6em 1em;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    text-decoration: none;
+  }
+}
