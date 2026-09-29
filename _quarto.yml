@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Dawei Wang"
+  favicon: favicon.svg
   navbar:
     background: "#135A7D"
     left:
