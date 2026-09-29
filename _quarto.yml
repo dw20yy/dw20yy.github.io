@@ -20,7 +20,7 @@ website:
     left: 
       "© 2026, Dawei Wang"
     border: false
-    background: light
+    background: "#C0C8C4"
 
 format:
   html:
