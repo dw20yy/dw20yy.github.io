@@ -10,7 +10,9 @@ website:
       - href: index.qmd
         text: Home
       - research.qmd
-      #- contact.qmd
+      - href: cv.qmd
+        text: CV
+      - contact.qmd
     tools: 
       - icon: linkedin
         href: https://www.linkedin.com/in/daweiwang365/

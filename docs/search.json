@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Dawei Wang",
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
     "section": "",
-    "text": "About Me\nI am a MSc candidate at the University of Toronto studying neuroimaging and computational neuroscience.\nI am interested in neuroscience, especially with neurological disorders and bridging the gap between clinical and computational sides of health research.\n\n\nEducation\n\nMSc, Institute of Medical Science | University of Toronto | 2026-2028\nHBSc, Human Biology, Immunology | University of Toronto | 2022-2026\n\n\n\nProjects\nI am currently working under Dr. Nicholas Neufeld at the Centre for Addiction and Mental Health (CAMH), observing functional trajectory, physical outcomes, and neuroimaging biomarkers in schizophrenia patients over a 5-year period.\nFor more information about past projects, please check out the Research or CV tab to learn more about them!"
+    "text": "Please reach out to me via my email or LinkedIn. I am always happy to connect and will respond ASAP.\n\nEmail: daweiw.wang@mail.utoronto.ca\nLinkedIn: linkedin.com/in/daweiwang365"
   },
   {
     "objectID": "research.html",
@@ -26,5 +26,12 @@
     "title": "Research",
     "section": "Previous Research",
     "text": "Previous Research\n\nFunctional Connectivity Disruption as Biomarkers in Adolescent Concussion\n\nPrincipal Investigators: Dr. Benjamin Dunkley, PhD; Dr. Avyarthana Dey, PhD\nLocation: Hospital for Sick Children\nDate of Project: 2025-2026\nFor my undergraduate thesis, I used graph theory-based modelling in MATLAB to analyze MEG data from adolescents with concussion. Functional connectivity networks were analyzed, and it was shown in individuals with concussion had lower connectivity measures such as efficiency and strength, and increased clustering, were observed. This showed disrupted functional connectivity in individuals with concussion, which could be helpful in providing more accurate and rapid concussion diagnosis."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Dawei Wang",
+    "section": "",
+    "text": "About Me\nI am a MSc candidate at the University of Toronto studying neuroimaging and computational neuroscience.\nI am interested in neuroscience, especially with neurological disorders and bridging the gap between clinical and computational sides of health research.\n\n\nEducation\n\nMSc, Institute of Medical Science | University of Toronto | 2026-2028\nHBSc, Human Biology, Immunology | University of Toronto | 2022-2026\n\n\n\nProjects\nI am currently working under Dr. Nicholas Neufeld at the Centre for Addiction and Mental Health (CAMH), observing functional trajectory, physical outcomes, and neuroimaging biomarkers in schizophrenia patients over a 5-year period.\nFor more information about past projects, please check out the Research or CV tab to learn more about them!"
   }
 ]

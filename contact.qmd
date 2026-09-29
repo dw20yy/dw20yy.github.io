@@ -1,0 +1,9 @@
+---
+title: "Contact"
+toc: false
+---
+
+Please reach out to me via my email or LinkedIn. I am always happy to connect and will respond ASAP.
+
+* Email: [daweiw.wang@mail.utoronto.ca](mailto:daweiw.wang@mail.utoronto.ca)
+* LinkedIn: [linkedin.com/in/daweiwang365](https://www.linkedin.com/in/daweiwang365/)
