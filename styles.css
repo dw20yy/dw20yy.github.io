@@ -2,7 +2,7 @@
 
 /* Adjust vertical padding or height of the overall footer */
 .nav-footer {
-  min-height: 0.5em; /* Default is around 3em for inner sections */
+  min-height: 0.5em; 
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
