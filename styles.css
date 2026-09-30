@@ -48,25 +48,17 @@
   padding-top: 0;
 }
 
-
 /* Remove padding on top of titles */
 .remove-upper-whitespace {
   margin-top: 0;
   padding-top: 0;
 }
 
-
-/*Profile Photo*/
-.profile-photo {
-  width: 170px;
-  height: 225px;
-  object-fit: cover;
-  margin-bottom: 1px;
-}
-
-.profile-sidebar h3 {
-  margin-top: 0.5rem;
-  margin-bottom: 1rem;
+/* Keeps space on mobile view */
+@media (max-width: 991.98px) {
+  div.quarto-about-trestles {
+    padding-top: 1rem !important;
+  }
 }
 
 
